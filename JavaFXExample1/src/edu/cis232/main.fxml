@@ -14,9 +14,7 @@
          </font>
       </Label>
       <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="55.0" onMousePressed="#buttonPress" onMouseReleased="#buttonRelease" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="240.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="55.0">
-         <image>
-            <Image url="@dead%20pool.jpg" />
-         </image>
+         
       </ImageView>
       <Button fx:id="button" layoutX="200.0" layoutY="160.0" mnemonicParsing="false" onAction="#buttonListener" onMousePressed="#buttonPress" onMouseReleased="#buttonRelease" prefHeight="105.0" prefWidth="200.0" text="CLICK ME!!!!" textOverrun="CLIP" AnchorPane.bottomAnchor="135.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="160.0" />
    </children>

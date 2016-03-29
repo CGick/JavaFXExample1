@@ -12,8 +12,8 @@ public class MainController {
 	ImageView image;
 	
 	int clickCount = 0;
-	Image deadpool1 = new Image(getClass().getResource("dead pool.jpg").toString());
-	Image deadpool2 = new Image(getClass().getResource("deadpool2.jpg").toString());
+	Image deadpool1 = new BetterImage("dead pool.jpg");
+	Image deadpool2 = new BetterImage("deadpool2.jpg");
 	public void initialize(){
 		System.out.println("Initializing...");
 		image.setImage(deadpool1);
