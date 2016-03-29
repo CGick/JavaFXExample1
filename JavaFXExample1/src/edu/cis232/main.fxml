@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.cis232.MainController">
+   <children>
+      <Label fx:id="label" alignment="CENTER" layoutX="162.0" layoutY="14.0" text="Hello GUI World" AnchorPane.bottomAnchor="345.0" AnchorPane.leftAnchor="162.0" AnchorPane.rightAnchor="162.0" AnchorPane.topAnchor="14.0">
+         <font>
+            <Font name="Times New Roman Bold" size="37.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="55.0" onMousePressed="#buttonPress" onMouseReleased="#buttonRelease" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="240.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="55.0">
+         <image>
+            <Image url="@dead%20pool.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="button" layoutX="200.0" layoutY="160.0" mnemonicParsing="false" onAction="#buttonListener" onMousePressed="#buttonPress" onMouseReleased="#buttonRelease" prefHeight="105.0" prefWidth="200.0" text="CLICK ME!!!!" textOverrun="CLIP" AnchorPane.bottomAnchor="135.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="160.0" />
+   </children>
+</AnchorPane>
